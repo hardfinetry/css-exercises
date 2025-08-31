@@ -13,6 +13,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /* The below option was my original solution, also works to push left and right links to the side */
   /* margin: auto; */
 }
 
