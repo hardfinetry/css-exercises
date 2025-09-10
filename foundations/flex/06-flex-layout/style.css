@@ -7,6 +7,9 @@ body {
   font-family: Roboto, sans-serif;
   text-align: center;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -38,12 +41,6 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
