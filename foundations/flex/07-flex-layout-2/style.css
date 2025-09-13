@@ -13,6 +13,16 @@ a {
   color: white;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
@@ -35,7 +45,7 @@ a {
 .content {
   display: flex;
   margin: 10px;
-  gap: 10px;
+  gap: 20px;
   flex-wrap: wrap;
   padding: 48px;
   flex: 1 1 auto;
@@ -67,5 +77,6 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   max-height: 300px;
-  width: 200px;
+  width: 300px;
+  padding: 16px;
 }
